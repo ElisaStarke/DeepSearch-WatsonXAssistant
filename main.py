@@ -8,7 +8,7 @@ from deepsearch.cps.queries.results import RAGResult, SearchResult, SearchResult
 from fastapi import Depends, FastAPI, HTTPException, status
 from pydantic import BaseModel
 
-from ds_watsonx_assistant.dependencies import get_deepsearch_api
+from dependencies import get_deepsearch_api
 
 app = FastAPI()
 
